@@ -15,7 +15,7 @@ namespace ModernWebStore.Tests.Domain.Specs
         public UserSpecTests()
         {
             this._users = new List<User>();
-            _users.Add(new User("andrebaltieri@hotmail.com", StringHelper.Encrypt("123456"), true));
+            _users.Add(new User("andrebaltieri@hotmail.com", "123456", true));
         }
 
         [TestMethod]
